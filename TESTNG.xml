@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" thread-count="3" configfailurepolicy="continue">
+<suite name="Suite" thread-count="5">
 		<test name="Test1" parallel="instances">
 			<parameter name="deviceName_" value="device_One"/>
 			<parameter name="UDID_" value="192.168.33.101:5555"/>
